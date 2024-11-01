@@ -1,0 +1,20 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "watcher",
+			"type": "shell",
+			"command": "npm run watch",
+			"problemMatcher": [
+				"$tsc-watch"
+			],
+			"isBackground": true,
+			"group": "build",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		}
+	]
+}

@@ -6,15 +6,16 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+release
 node_modules
 node_modules/*
 dist
 dist-ssr
 *.local
+dist-electron
 
 # Editor directories and files
-.vscode/*
+
 !.vscode/extensions.json
 .idea
 .DS_Store
